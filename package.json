@@ -1,0 +1,17 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite ./src",
+    "build": "vite build ./src",
+    "preview": "vite preview ./src"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "hybrids": "^8.2.8"
+  }
+}

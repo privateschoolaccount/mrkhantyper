@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hybrids Simple Counter</title>
+    <script type="module" src="/index.js" aysnc></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>&lt;simple-counter&gt;</h1>
+    <p>
+      This is an example of the web component created with the
+      <a href="https://hybrids.js.org">hybrids</a> library.
+    </p>
+    <section>
+      <h2>Without attributes</h2>
+      <pre>&lt;simple-counter&gt;&lt;/simple-counter&gt;</pre>
+      <p class="wc">
+        <simple-counter></simple-counter>
+      </p>
+      <p class="info">
+        Click to increase the count value. Try to change the
+        <strong>count</strong> property value with developer tools.
+      </p>
+    </section>
+
+    <section>
+      <h2>With count attribute</h2>
+      <pre>
+&lt;simple-counter count=&quot;10&quot;&gt;&lt;/simple-counter&gt;</pre
+      >
+      <p class="wc">
+        <simple-counter count="10"></simple-counter>
+      </p>
+      <p class="info">
+        The element is initialized with the <strong>count</strong> set to 10.
+        You can still change it manually by setting the property in developer
+        tools.
+      </p>
+    </section>
+  </body>
+</html>
